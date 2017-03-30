@@ -2,11 +2,14 @@ package weiser;
 
 public class Fibonacci {
 
+<<<<<<< HEAD
 	public static  int fibonacci(int z) {
-	public long fibonacci(int z) {
 		if (z <= 0) {
 			throw new IllegalArgumentException();
 		}
+=======
+	public long fibonacci(int z) {
+>>>>>>> origin/corrections
 		if (z == 1 || z == 2) {
 			return 1;
 		}
